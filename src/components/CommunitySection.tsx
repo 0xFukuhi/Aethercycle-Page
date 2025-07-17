@@ -88,9 +88,3 @@ const CommunitySection: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  );
-};
-
-export default CommunitySection;
