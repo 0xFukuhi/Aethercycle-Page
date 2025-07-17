@@ -267,7 +267,7 @@ const FAQSection: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center" role="group" aria-label="Community support links">
             <a
-              href="https://discord.gg/wadaks9KPt"
+              href="https://discord.gg/425qrfChBX"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-gray-700 text-white px-8 py-4 font-mono text-sm hover:bg-gray-800 hover:border-gray-500 transition-all duration-300 ease-in-out transform hover:scale-105 flex items-center justify-center gap-2 min-w-[140px]"

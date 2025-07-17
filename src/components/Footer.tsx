@@ -22,6 +22,7 @@ const Footer: React.FC<FooterProps> = ({ onSectionChange }) => {
       title: 'Community',
       links: [
         { name: 'Discord', url: 'https://discord.gg/wadaks9KPt' },
+        { name: 'Discord', url: 'https://discord.gg/425qrfChBX' },
         { name: 'Twitter', url: 'https://x.com/Aethercycle' },
         { name: 'GitHub', url: 'https://github.com/aethercycle' },
         { name: 'Governance', url: 'https://discord.gg/wadaks9KPt' }
@@ -40,7 +41,7 @@ const Footer: React.FC<FooterProps> = ({ onSectionChange }) => {
 
   const socialLinks = [
     { name: 'Twitter', icon: Twitter, url: 'https://x.com/Aethercycle' },
-    { name: 'Discord', icon: MessageSquare, url: 'https://discord.gg/wadaks9KPt' },
+    { name: 'Discord', icon: MessageSquare, url: 'https://discord.gg/425qrfChBX' },
     { name: 'GitHub', icon: Github, url: 'https://github.com/aethercycle' },
   ];
 

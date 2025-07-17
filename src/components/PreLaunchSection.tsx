@@ -308,7 +308,7 @@ const PreLaunchSection: React.FC<PreLaunchSectionProps> = ({ onSectionChange }) 
           
           <div className="grid md:grid-cols-3 gap-6">
             <a
-              href="https://discord.gg/wadaks9KPt"
+              href="https://discord.gg/425qrfChBX"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 hover:bg-blue-700 p-6 rounded-lg text-center transition-colors group"

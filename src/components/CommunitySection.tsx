@@ -7,7 +7,7 @@ const CommunitySection: React.FC = () => {
       name: 'Discord',
       description: 'Real-time discussions, support, and community governance',
       icon: MessageSquare,
-      url: 'https://discord.gg/wadaks9KPt',
+      url: 'https://discord.gg/425qrfChBX',
       members: '500+',
       color: 'bg-blue-600 hover:bg-blue-700'
     },
@@ -213,7 +213,7 @@ const CommunitySection: React.FC = () => {
             Start by joining our Discord server and introducing yourself to the community.
           </p>
           <a
-            href="https://discord.gg/wadaks9KPt"
+            href="https://discord.gg/425qrfChBX"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 font-mono text-sm transition-all duration-300 ease-in-out transform hover:scale-105 inline-flex items-center gap-2"
