@@ -9,7 +9,7 @@ const CommunitySection: React.FC = () => {
       description: 'Real-time discussions, support, and community governance',
       icon: MessageSquare,
       url: 'https://discord.gg/425qrfChBX',
-      members: '500+',
+      status: 'Active',
       color: 'bg-blue-600 hover:bg-blue-700'
     },
     {
@@ -17,7 +17,7 @@ const CommunitySection: React.FC = () => {
       description: 'Protocol updates, announcements, and ecosystem news',
       icon: Twitter,
       url: 'https://x.com/Aethercycle',
-      members: '1.2K+',
+      status: 'Active',
       color: 'bg-gray-700 hover:bg-gray-600'
     },
     {
@@ -25,7 +25,7 @@ const CommunitySection: React.FC = () => {
       description: 'Open source code, technical discussions, and contributions',
       icon: Github,
       url: 'https://github.com/aethercycle',
-      members: 'Public',
+      status: 'Public',
       color: 'bg-gray-800 hover:bg-gray-700'
     }
   ];
@@ -94,7 +94,7 @@ const CommunitySection: React.FC = () => {
                 <p className="text-sm opacity-90 mb-4">{channel.description}</p>
                 <div className="flex items-center justify-center space-x-2">
                   <span className="text-xs font-mono bg-black bg-opacity-30 px-2 py-1 rounded">
-                    {channel.members} members
+                    {channel.status}
                   </span>
                   <ExternalLink size={14} />
                 </div>
@@ -184,28 +184,6 @@ const CommunitySection: React.FC = () => {
           </div>
         </div>
 
-        {/* Community Stats */}
-        <div className="text-center">
-          <h3 className="text-2xl font-bold mb-8">Community Growth</h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div className="bg-gray-800 p-6 rounded-lg">
-              <div className="text-3xl font-bold mb-2">1.7K+</div>
-              <div className="text-sm text-gray-400">Total Members</div>
-            </div>
-            <div className="bg-gray-800 p-6 rounded-lg">
-              <div className="text-3xl font-bold mb-2">50+</div>
-              <div className="text-sm text-gray-400">Contributors</div>
-            </div>
-            <div className="bg-gray-800 p-6 rounded-lg">
-              <div className="text-3xl font-bold mb-2">15+</div>
-              <div className="text-sm text-gray-400">Countries</div>
-            </div>
-            <div className="bg-gray-800 p-6 rounded-lg">
-              <div className="text-3xl font-bold mb-2">24/7</div>
-              <div className="text-sm text-gray-400">Active Support</div>
-            </div>
-          </div>
-        </div>
 
         {/* Call to Action */}
         <div className="mt-16 text-center">
